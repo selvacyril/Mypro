@@ -1,0 +1,58 @@
+@CHARSET "ISO-8859-1";
+
+
+body{
+	background-image: url("./images/pexels.jpg");
+	
+}
+
+header{
+	font-family:sans-serif;
+	background-color: aqua;       
+	width:100%;
+	padding:30px;
+	font-align: center;
+	
+	
+}
+
+.dr{
+	font-family:sans-serif;
+  position: relative;
+  z-index: 1;
+  background:rgba(0,0,0,0.5);
+  max-width: 290px;
+ 
+  padding: 50px;
+  font-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.dr button{
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #f93553;
+  width: 19%;
+  border: 0;
+  padding: 5px;
+  color: #FFFFFF;
+  font-size: 15px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.dr select{
+	background: maroon;
+	border-radius: 0}
+.dr option{
+  background: rgba(36,36,36,0.5);
+  line-height: 1;
+  border: 0;
+  padding: 0;
+  border-radius:0;
+  width: 10%;
+  position: relative;
+  
+  font-size: 1em;
+}
